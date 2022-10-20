@@ -1,3 +1,6 @@
+# Code submission
+Portfolio Allocation code called "ZWG_pm.py" within backtest_v2 folder, results saved to "ZWG_pm_results.csv".
+
 # backtesting
 A prototype back-testing framework. 
 
