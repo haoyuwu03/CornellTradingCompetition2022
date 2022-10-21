@@ -275,18 +275,15 @@ def strat_function(preds, prices, last_weights):
     if stocks == None:
         #Initialize stock information using historical data
         stocks = initialize_stocks()
-    # Reformat prices as a pandas Series with stock ticker labels to match other stock information variables
-    prices=pd.Series(prices[0], stocks.tickers)
-
-    if stocks.first_run:
+        # Reformat prices as a pandas Series with stock ticker labels to match other stock information variables
+        prices=pd.Series(prices[0], stocks.tickers)
         # Keep first day's prices to start calculating daily returns on the next day
         stocks.last_prices=prices
         # Calculate initial weights from historical data
         weights=stocks.markowitz()
-
-        # Don't initialize from historical data again
-        stocks.first_run=False
     else:
+        # Reformat prices as a pandas Series with stock ticker labels to match other stock information variables
+        prices=pd.Series(prices[0], stocks.tickers)
         # Update stock information from current prices
         stocks.update(prices)
         # Update weights
@@ -299,5 +296,5 @@ def strat_function(preds, prices, last_weights):
 Running the backtest - starting portfolio value of 10000, reading in data from these two locations.
 '''
 # Data that is passed in must fit the backtesting format (dataframe of prices with datetime as index, each column name is a stock ticker)
-backtest(strat_function, 10000, 'portfolio_allocation/backtest_v2/price_data_cleaned.csv',
-         'portfolio_allocation/backtest_v2/price_data_cleaned.csv', True, "portfolio_allocation/backtest_v2/ZWG_pm_results.csv")
+#backtest(strat_function, 10000, 'portfolio_allocation/backtest_v2/price_data_cleaned.csv',
+#         'portfolio_allocation/backtest_v2/price_data_cleaned.csv', True, "portfolio_allocation/backtest_v2/ZWG_pm_results.csv")
