@@ -15,4 +15,4 @@ Code for portfolio allocation and derivatives trading in their respective folder
 Stock Price Movement During Time Period
 
 Portfolio Value Over Time
-![Portfolio Value Over Time] (https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio Value Over Time.png?raw=true)
+![Portfolio Value Over Time] (https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio%20Value%20Over%20Time.png?raw=true)
