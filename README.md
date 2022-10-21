@@ -18,4 +18,4 @@ Stock Price Movement During Time Period
 
 Portfolio Value Over Time
 
-![Portfolio Value Over Time](https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio%20Value%20Over%20Time.png=100x100)
+![Portfolio Value Over Time](https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio%20Value%20Over%20Time.png)
