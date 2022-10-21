@@ -13,6 +13,6 @@ Code for portfolio allocation and derivatives trading in their respective folder
 
 ### Results of Portfolio Allocation
 Stock Price Movement During Time Period
-
+![Stocks Value Over Time](https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/stock_values_over_time.png)
 Portfolio Value Over Time
-![Portfolio Value Over Time](https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio%20Value%20Over%20Time.png?raw=true)
+![Portfolio Value Over Time](https://github.com/haoyuwu03/CornellTradingCompetition2022/blob/main/portfolio_allocation/Portfolio%20Value%20Over%20Time.png)
