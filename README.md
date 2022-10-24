@@ -4,6 +4,15 @@ https://docs.google.com/document/d/1o79Wrjlp7YZdR1MePZlquGTutfUfrP4gn7BsaJwEBuI/
 
 Code for portfolio allocation and derivatives trading in their respective folders, crypto case on apifiny.
 
+Link to all 3 case instruction:
+https://docs.google.com/document/d/1o79Wrjlp7YZdR1MePZlquGTutfUfrP4gn7BsaJwEBuI/edit#
+Link to Options Case Data: 
+https://drive.google.com/drive/folders/1VVCzYKQw82KPW2SflMo4jjHxY9Z6XEay
+Link to PM Data: 
+https://docs.google.com/spreadsheets/d/1yDqOV9RjRwrFJstonqwkJjF7Fxq87GFv0kJLWXseti8/edit#gid=0
+Link to Crypto Case instructions:
+https://gitlab.com/apifiny-algo/cornell-trading-competition
+
 ## Portfolio Allocation Methods:
 - New estimate for historical variance using: (variance of stock - mean variance across all stocks)^2 + mean variance across all stocks
 - Use four times the average of three month returns calculated from weekly average of daily returns to estimate annual returns
